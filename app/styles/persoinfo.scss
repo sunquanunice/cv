@@ -1,0 +1,72 @@
+#top-bar {
+  background-color: #B0D441;
+}
+#top-bar-content #name {
+  float: left;
+  text-align: center;
+}
+#top-bar h1 {
+  text-align: center;
+  color: #3022AA;
+  margin: 0;
+  font-size: 60px;
+  text-shadow: 3px 3px 0px #eea1a7;
+  font-weight: normal;
+}
+#top-bar span {
+  text-align: center;
+  color: #3022AA;
+  margin: 0;
+  font-size: 19px;
+  text-shadow: 2px 2px 0px #eea1a7;
+}
+#top-bar-content #contact {
+  float: right;
+  padding: 0 20px;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+#top-bar-content .clearfix {
+  zoom: 1;
+}
+#top-bar-content p {
+  margin: 0 0 10px;
+}
+
+#top-bar-content #contact p {
+  font-family: 'BebasNeueRegular', Arial, sans-serif;
+  margin: 5px 0;
+  color: #fff;
+  font-size: 15px;
+  display: block;
+}
+#top-bar-content #contact p span.left {
+  display: block;
+  width: 70px;
+  float: left;
+  text-align: left;
+  text-shadow: 2px 2px 0px #eea1a7;
+  text-shadow: none;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+#top-bar-content #contact p span {
+  display: block;
+  float: left;
+  color: #3022AA;
+  font-size: 16px;
+  text-shadow: none;
+}
+body {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.231;
+}
+#top-bar-content {
+  margin: 0 auto;
+  width: 940px;
+  padding: 0 10px;
+  position: relative;
+}

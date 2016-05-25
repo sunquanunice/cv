@@ -1,0 +1,126 @@
+div.myNav {
+  text-align: center;
+  height: 200px;
+  background-color: #EEEEEE;
+}
+div.about-me {
+  width: 15%;
+  background-color: #eee;
+  float: left;
+  border: 5px solid #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  background: transparent url('../images/sun.jpg') 50% 30% no-repeat;
+  margin: 0;
+}
+div.about-me:hover {
+  border: 5px solid #3B748A;
+}
+
+div.work,
+div.education,
+div.skills,
+div.portfolio{
+  font-size: 14px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 20px;
+  width: 12%;
+  height:  calc(100% * 0.82);
+  float: left;
+  border: 5px solid #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-left: 20px;
+  color: #eee;
+  padding-top: 5%;
+  text-shadow: 0 0 2px #000000;
+  text-shadow: 1px 1px 0px #777;
+  cursor: pointer;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+div.work {
+  background-color: #EA7079;
+}
+div.education {
+  background-color: #b7d472;
+}
+div.skills {
+  background-color: #5EC3B8;
+}
+div.portfolio {
+  background-color: #DA8343;
+}
+div.work:hover {
+  border: 5px solid #A94442;
+}
+div.education:hover {
+  border: 5px solid #5CB85C;
+}
+div.skills:hover{
+  border: 5px solid #337AB7;
+}
+
+div.portfolio:hover {
+  border: 5px solid #8A6D3B;
+}
+
+/*
+div.circles {
+  font-size: 14px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 20px;
+  width: 155px;
+  height: 155px;
+  float: left;
+  border: 5px solid #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #ed9fa4;
+  background: #EA7079;
+  margin-left: 20px;
+  color: #eee;
+  text-shadow: 0 0 2px #000000;
+  text-shadow: 1px 1px 0px #777;
+  cursor: pointer;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  //behavior: url(PIE.htc);
+}
+
+/*
+div#container, div#header {
+  padding-top: 40px;
+}
+
+
+#header {
+  padding-bottom: 40px;
+}
+
+#header .circles span {
+  display: block;
+  padding-top: 52px;
+  font-size: 28px;
+  color: #fff;
+}
+
+
+
+
+*/
