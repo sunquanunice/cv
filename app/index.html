@@ -18,6 +18,31 @@
   <!-- endbuild -->
 </head>
 <body ng-app="angularApp">
+  <nav class="mynavbar navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">SUN QUAN</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#experiences">{{'experiences' | translate}}</a>
+          </li>
+          <li>
+            <a href="#educations">{{'educations' | translate}}</a>
+          </li>
+          <li>
+            <a href="#competences">{{'competences' | translate}}</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              FR<span class = "caret"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
 
@@ -55,6 +80,8 @@
 <script src="bower_components/angular-resource/angular-resource.js"></script>
 <script src="bower_components/angular-route/angular-route.js"></script>
 <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="bower_components/angular-translate/angular-translate.js"></script>
+<script src="bower_components/angular-translate-loader-url/angular-translate-loader-url.js"></script>
 <script src="bower_components/angular-touch/angular-touch.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
@@ -63,7 +90,6 @@
 <script src="scripts/app.js"></script>
 <script src="scripts/controllers/main.js"></script>
 <script src="scripts/controllers/about.js"></script>
-<script src="scripts/views/navigation.js"></script>
 <!-- endbuild -->
 </body>
 </html>
