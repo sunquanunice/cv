@@ -1,7 +1,14 @@
 {
   "infos" : "infos",
-  "experiences" : "exp�riences",
+  "experiences" : "expériences",
   "education" : "formation",
-  "competences" : "comp�tences",
-  "hello" : "Bonjour"
+  "competences" : "compétences",
+  "name" : "Quan SUN",
+  "age" : "ans",
+  "resume" : "Je suis à la recherche un CDI depuis en novembre 2016, actuellement apprentis chez Beepeers, ma promotion est l'architecture logicielle. Je préfère le poste sur le développement de serveur, surtout en JAVA(-like).",
+  "email" : "sunquanmw@gmail.com",
+  "tel" : "(+33) 660913877",
+  "appartement" : "2400, Route des Dolines",
+  "zip-city" : "06560 Sophia-Antipolis",
+  "cv" : "CV"
 }

@@ -8,10 +8,8 @@
  * Controller of the angularApp
  */
 angular.module('angularApp')
-    .controller('BaseCtrl', ['$scope', function ($scope) {
-        $scope.awesomeThings = [
-            'HTML5 Boilerplate',
-            'AngularJS',
-            'Karma'
-        ];
+    .controller('BaseCtrl', ['$scope', '$rootScope', '$translate', function ($scope, $rootScope, $translate) {
+        $scope.init = function() {
+            $rootScope.lang = $translate.preferredLanguage();
+        }
     }]);

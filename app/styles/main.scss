@@ -1,7 +1,9 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "font-awesome/scss/font-awesome.scss";
 // endbower
+@light-grey: #eeeeee;
 
 .browsehappy {
   margin: 0.2em 0;
@@ -88,4 +90,16 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+.light-grey {
+  background-color: #EEEEEE;
+}
+.tb-45 {
+  padding-bottom: 45px;
+  padding-top: 45px;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }

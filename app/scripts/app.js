@@ -17,15 +17,17 @@ angular
     'ngSanitize',
     'ngTouch',
     'angular-carousel',
-    'pascalprecht.translate'
+    'pascalprecht.translate',
+    'duScroll'
   ])
     .config([ '$translateProvider', function($translateProvider) {
-      var preferredLanguage = navigator.language;
+      $translateProvider.preferredLanguage(navigator.language);
+      $translateProvider.useStaticFilesLoader({
+        prefix: '/langs/',
+        suffix: '.json'
+      });
 
-      $translateProvider.preferredLanguage(function() {
-          return preferredLanguage;
-        });
-      $translateProvider.useUrlLoader('langs/' + preferredLanguage + '.json');
+      $translateProvider.useLocalStorage();
     }])
   .config(['$routeProvider','$locationProvider', function ($routeProvider, $locationProvider) {
     $locationProvider.html5Mode(true);

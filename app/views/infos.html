@@ -1,1 +1,28 @@
-<p>{{"hello" | translate}}</p>
+<div class="info-section">
+    <h1 class="title">{{"infos" | translate}}</h1>
+    <div class="row perso-content">
+        <div class="col-lg-4 perso-left">
+            <div class="perso-photo"></div>
+            <div>
+                <span class="name">{{"name" | translate}}</span><div class="age">{{age}}<span>{{'age' | translate}}</span></div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div class="perso-right">
+                <div class="resume">{{"resume" | translate}}</div>
+                <div>
+                    <a class="email" href="mailto:{{'email' | translate}}">{{"email" | translate}}</a>
+                    <div class="tel">{{"tel" | translate}}</div>
+                </div>
+                <a class="address" href="{{address}}" target="_blank">
+                    <div class="appartement">{{'appartement' | translate}}</div>
+                    <div class="zip-city">{{'zip-city' | translate}}</div>
+                </a>
+                <a href="/pdfs/cv-{{lang}}.pdf" class="cv-pdf btn btn-info" type="button" target="_blank">
+                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i><span>{{"cv" | translate}}</span>
+                </a>
+                <a class="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</div>

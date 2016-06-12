@@ -2,5 +2,9 @@
   "infos" : "infos",
   "experiences" : "experiences",
   "educations" : "educations",
-  "competences" : "competences"
+  "competences" : "competences",
+  "age" : "years",
+  "email" : "sunquanmw@gmail.com",
+  "tel" : "(+33) 660913877",
+  "cv" : "CV"
 }
