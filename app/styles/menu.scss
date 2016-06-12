@@ -1,7 +1,7 @@
 .mynavbar {
     height: 90px;
     text-transform: uppercase;
-    background: rgba(184, 234, 185, 0.4);
+    background: rgba(0, 0, 0, 0.8);
     .container {
       height: 100%;
       div {
@@ -16,9 +16,12 @@
         margin-top: 25px;
         font-size: 15px;
 
-        .navbar-nav  a:hover {
-          background: none;
-          color: #FF0303;
+        .navbar-nav  a{
+          color: white;
+          &:hover {
+            background: none;
+            color: #FF0303;
+          }
         }
         .dropdown {
           display: none;

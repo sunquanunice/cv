@@ -16,6 +16,7 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
+    'angular-carousel',
     'pascalprecht.translate'
   ])
     .config([ '$translateProvider', function($translateProvider) {
@@ -26,18 +27,39 @@ angular
         });
       $translateProvider.useUrlLoader('langs/' + preferredLanguage + '.json');
     }])
-  .config(['$routeProvider', function ($routeProvider) {
+  .config(['$routeProvider','$locationProvider', function ($routeProvider, $locationProvider) {
+    $locationProvider.html5Mode(true);
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/infos', {
+        templateUrl : 'views/infos.html',
+        controller : 'InfosCtrl'
+      })
+      .when('/experiences', {
+        templateUrl : 'views/experiences.html',
+        controller : 'ExperiencesCtrl'
+      })
+      .when('/education', {
+        templateUrl : 'views/education.html',
+        controller : 'EducationCtrl'
+      })
+      .when('/competences', {
+        templateUrl : 'views/competences.html',
+        controller : 'CompetencesCtrl'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/flexslider', {
+          templateUrl : "views/flexslider.html",
+          controller : 'FlexsliderCtrl'
+        })
       .otherwise({
         redirectTo: '/'
       });

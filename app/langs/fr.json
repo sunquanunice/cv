@@ -1,5 +1,7 @@
 {
+  "infos" : "infos",
   "experiences" : "expériences",
-  "educations" : "formations",
-  "competences" : "compétences"
+  "education" : "formation",
+  "competences" : "compétences",
+  "hello" : "Bonjour"
 }
