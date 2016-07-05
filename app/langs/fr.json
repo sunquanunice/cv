@@ -10,5 +10,32 @@
   "tel" : "(+33) 660913877",
   "appartement" : "2400, Route des Dolines",
   "zip-city" : "06560 Sophia-Antipolis",
-  "cv" : "CV"
+  "cv" : "CV",
+  "experience1.name" : "",
+  "experience1.company" : "",
+  "experience1.from" :"",
+  "experience1.to" : "",
+  "experience1.city" : "",
+  "experience1.environment" : "",
+  "experience1.description" : "",
+
+  "education.education1.school" : "Polytech Nice Sophia",
+  "education.education1.school.link" : "http://www.polytechnice.fr/",
+  "education.education1.from" : "sept. 2015",
+  "education.education1.to" : "juin 2016",
+  "education.education1.major" : "Architecture Logiciel",
+  "education.education1.diplome" : "Ingénieur en 5ème année",
+  "education.education2.school" : "Polytech Nice Sophia",
+  "education.education2.school.link" : "http://www.polytechnice.fr/",
+  "education.education2.from" : "sept. 2013",
+  "education.education2.to" : "juin 2015",
+  "education.education2.major" : "Sciences Informatiques",
+  "education.education2.diplome" : "Ingénieur en 3-4ème année",
+  "education.education3.school" : "Université de Wuhan",
+  "education.education3.school.link" : "http://en.whu.edu.cn/",
+  "education.education3.from" : "sept. 2009",
+  "education.education3.to" : "juin 2013",
+  "education.education3.major" : "Ingénierie du Logiciel",
+  "education.education3.diplome" : "Licence"
+
 }

@@ -1,0 +1,33 @@
+#education >.container {
+  margin: 0 auto;
+  .educations {
+    margin-top: 50px;
+
+    table {
+      margin: 0 auto;
+      tr {
+        margin-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        td {
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+        & td:first-child {
+          padding-right: 10px;
+          //border-right: 1px solid black;
+        }
+        & td:last-child > div {
+
+          a {
+            font-weight: bold;
+            text-decoration: none;
+          }
+          border-left: 2px solid rgb(221, 221, 221);
+          padding-left: 10px;
+        }
+
+      }
+    }
+  }
+}
